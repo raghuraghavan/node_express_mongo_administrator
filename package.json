@@ -1,0 +1,33 @@
+{
+  "author": "Raghu Raghavan",
+  "name": "mongo-Admin",
+  "description": "Web-based admin interface for MongoDB",
+  "version": "0.23.7",
+  "dependencies": {
+    "async": "1.4.2",
+    "basic-auth-connect": "1.0.0",
+    "body-parser": "^1.18.3",
+    "consolidate": "0.12.1",
+    "cookie-parser": "1.4.0",
+    "errorhandler": "^1.5.0",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "method-override": "^3.0.0",
+    "mongodb": "2.0.43",
+    "morgan": "^1.9.1",
+    "serve-favicon": "^2.5.0",
+    "swig": "1.4.2",
+    "underscore": "1.8.3"
+  },
+  "devDependencies": {
+    "chai": "3.3.0",
+    "mocha": "^5.2.0"
+  },
+  "engine": "node >= 0.10",
+  "license": "MIT",
+  "scripts": {
+    "start": "node app",
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "main": "./middleware"
+}
