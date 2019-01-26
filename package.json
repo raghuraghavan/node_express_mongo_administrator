@@ -21,7 +21,8 @@
   },
   "devDependencies": {
     "chai": "3.3.0",
-    "mocha": "^5.2.0"
+    "mocha": "^5.2.0",
+    "uglify-js": ">=2.6.0"
   },
   "engine": "node >= 0.10",
   "license": "MIT",
